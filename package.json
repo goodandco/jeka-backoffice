@@ -14,8 +14,8 @@
   },
   "lint-staged": {
     "linters": {
-      "src/**/*.{js,vue}": [
-        "eslint --fix",
+      "src/**/*.{js}": [
+        "eslint --fix --ext .js,.vue src",
         "git add"
       ]
     },
