@@ -15,7 +15,7 @@
   "lint-staged": {
     "linters": {
       "src/*.{js,vue}": [
-        "eslint --fix",
+        "eslint --fix -ext .js,.vue src",
         "git add"
       ],
       "ignore": []
