@@ -13,14 +13,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "linters": {
-      "*.{js,vue}": [
-        "eslint --fix",
-        "git add"
-      ]
-    },
-    "ignore": [
-    ]
+    "*.{js,vue}": ["eslint --fix", "git add"]
   },
   "keywords": [
     "vue",
