@@ -14,12 +14,13 @@
   },
   "lint-staged": {
     "linters": {
-      "*.vue": [
-        "eslint --fix --ext .js,.vue src",
+      "*.{js,vue}": [
+        "eslint --fix",
         "git add"
       ]
     },
-    "ignore": []
+    "ignore": [
+    ]
   },
   "keywords": [
     "vue",
