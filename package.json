@@ -17,7 +17,8 @@
       "./src/*.{js,vue}": [
         "eslint --fix",
         "git add"
-      ]
+      ],
+      "ignore": []
     }
   },
   "keywords": [
