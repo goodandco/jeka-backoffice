@@ -1,9 +1,11 @@
-FROM node:10
+FROM node:8
 
-WORKDIR /usr/src/api-app
+WORKDIR /usr/src/backoffice
 
 COPY . .
 
 RUN npm install
 
-CMD npm run build:prod --preview
+RUN npm run build:prod
+
+CMD [ "npm", "start" ]

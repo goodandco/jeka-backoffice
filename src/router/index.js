@@ -48,19 +48,4 @@ export default new Router({
   routes: constantRouterMap
 })
 
-export const asyncRouterMap = [
-
-  {
-    path: '/table',
-    component: Layout,
-    redirect: '/table/complex-table',
-    name: 'table',
-    meta: {
-      title: 'Table',
-      icon: 'table'
-    },
-    children: [
-      { path: 'complex-table', component: () => import('@/views/table/complexTable'), name: 'complexTable', meta: { title: 'complexTable' }}
-    ]
-  }
-]
+export const asyncRouterMap = []
