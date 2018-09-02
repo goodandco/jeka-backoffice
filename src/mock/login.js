@@ -4,15 +4,15 @@ const userMap = {
   admin: {
     roles: ['admin'],
     token: 'admin',
-    introduction: '我是超级管理员',
-    avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
+    introduction: 'super boss',
+    avatar: 'https://i3.cpcache.com/product_zoom/99145252/super_boss_mousepad.jpg?height=460&width=460&padToSquare=true',
     name: 'Super Admin'
   },
   editor: {
     roles: ['editor'],
     token: 'editor',
-    introduction: '我是编辑',
-    avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
+    introduction: 'rabochyi',
+    avatar: 'https://st2.depositphotos.com/5592054/8533/v/950/depositphotos_85335110-stock-illustration-handyman-and-work-tool.jpg',
     name: 'Normal Editor'
   }
 }
